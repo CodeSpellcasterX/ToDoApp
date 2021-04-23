@@ -1,0 +1,51 @@
+/* favocon, flaticon */
+
+body {
+    margin: 0;
+}
+
+.main-container {
+    background-color: #15314b;
+    color: white;
+}
+
+.main-container, .input-container, .task-container {
+    border: 1px solid;
+}
+
+.input-container {
+    height: 20vh;
+    border-radius: 20px;
+}
+
+.task-container {
+    min-height: 80vh;
+    border-radius: 20px;
+    /* overflow-y: scroll; another option */
+
+}
+
+.task-input {
+    height: 4rem;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 30%;
+    margin: auto;   
+    /* margin auto krne k lie display block krna jruri h */
+    display: block;
+    margin-top: 5vh;
+    border-radius: 20px;
+}
+
+.tasklist-item {
+    font-size: 1.5rem;
+    text-align: center;
+    list-style: none;
+    width: 40%;
+    cursor: pointer;
+    background-color: black;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
